@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+    <style>
+        .carousel-item img{
+            height: 650px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">BAR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Type
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Rifles and shotguns</a></li>
+                  <li><a class="dropdown-item" href="#">Carbines</a></li>
+                  <li><a class="dropdown-item" href="#">Machine guns</a></li>
+                  <li><a class="dropdown-item" href="#">Sniper rifles</a></li>
+                  <li><a class="dropdown-item" href="#">Submachine guns</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Rankings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+     </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://c4.wallpaperflare.com/wallpaper/788/1011/710/war-and-army-handgun-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://wallpapercave.com/wp/wc1702397.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.teahub.io/photos/full/214-2141303_new-guns-wallpaper-hd.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1  class="text-center" > Xeberler </h1>
+            <div class="d-flex justify-content-between">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.atf.gov/sites/default/files/poly_technologies_ak-47.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Poly Technologies AK-47</h5>
+                  <p class="card-text">This Poly Tech AK-47/S is a semi-automatic rifle chambered in 7.62x39mm with a 30-plus-1 round capacity.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Type-Riffle</li>
+                  <li class="list-group-item">Long range gun</li>
+                  <li class="list-group-item">$1850</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">More</a>
+                  <a href="#" class="card-link">Buy Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.atf.gov/sites/default/files/photo-gallery/80.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Short Barrel - Shinkosha</h5>
+                  <p class="card-text">This is a very rare shotgun. This is an early Shinkosha, made in Japan. Imported by Seaway Importing Co Mallard Chicago Ill.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Type-Shotgun</li>
+                  <li class="list-group-item">Short range gun</li>
+                  <li class="list-group-item">$470</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">More</a>
+                  <a href="#" class="card-link">Buy Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.atf.gov/sites/default/files/smith_and_wesson_airweight_2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Smith and Wesson Airweight Caliber:.38 Cal</h5>
+                  <p class="card-text">The .38 Special was the standard service cartridge for the majority of United States police departments from the 1920s to the 1990s.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Type-Pistol</li>
+                  <li class="list-group-item">Short range gun</li>
+                  <li class="list-group-item">$588</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">More</a>
+                  <a href="#" class="card-link">Buy Now</a>
+                </div>
+              </div>
+            </div>  
+        </div>  
+    </section>
+
+    
+
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
